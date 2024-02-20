@@ -62,7 +62,7 @@ app.get('/mulitple/:num/:num',function(req,res){
 })
 app.get('/checkString/:string',function(req,res){
     var result=checkString(req.params.string)
-    res.json("is the string same as revers? : " + result)
+    res.json("is the string the same reversed? : " + result)
 })
 
 
